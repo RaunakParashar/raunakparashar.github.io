@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raunak Parashar | Portfolio</title>
+    <style>
+        /* ===== General Styles ===== */
+        body {
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: #f0f0f0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 0 10px 0;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #00bfff;
+            text-decoration: underline;
+        }
+
+        h2 {
+            color: #00bfff;
+            border-bottom: 2px solid #00bfff;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        main {
+            text-align: center;
+            padding: 20px;
+        }
+
+        section {
+            background-color: rgba(0, 0, 0, 0.4);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 25px auto;
+            width: 85%;
+            max-width: 800px;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+        }
+
+        /* ===== Profile Image ===== */
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 50%;
+            width: 160px;
+            border: 3px solid #00bfff;
+            transition: 0.4s;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        /* ===== Text & Lists ===== */
+        p,
+        ul {
+            text-align: left;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 30px;
+        }
+
+        /* ===== Contact Buttons ===== */
+        .contact-buttons {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .contact-buttons a {
+            display: inline-block;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            margin: 8px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .contact-buttons a:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+        /* ===== Footer ===== */
+        footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            color: #aaa;
+            background-color: rgba(0, 0, 0, 0.6);
+            margin-top: 40px;
+        }
+
+        /* ===== Responsive Design ===== */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            img {
+                width: 120px;
+            }
+
+            section {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <main>
+        <img src="My Pic.jpg" alt="Raunak Parashar Photo">
+
+        <section id="intro">
+            <h2>Introduction</h2>
+            <p>Hello and welcome to my portfolio. My name is <b>Raunak Parashar</b>. I am a passionate Computer Science
+                student interested in <b>Artificial Intelligence</b> and <b>Web Development</b>. I love building
+                creative and user-friendly projects using HTML, CSS, and JavaScript, and I’m always eager to learn and
+                grow as a developer.</p>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>Web Development
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </li>
+                <li>Programming Languages
+                    <ul>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>Python</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="academics">
+            <h2>My Academics</h2>
+            <ul>
+                <li><b>School:</b> St. Xavier's High School, Deoghar</li>
+                <li><b>University:</b> Siddo Kanhu Murmu University (SKMU)
+                    <ul>
+                        <li>Deoghar College</li>
+                        <li>AS College</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="achievements">
+            <h2>My Achievements</h2>
+            <ul>
+                <li>Designed my own portfolio using only HTML</li>
+                <li>Created small web projects to improve front-end development and creativity</li>
+                <li>Continuously improving coding skills and exploring new technologies</li>
+                <li>Experimented with layouts to make my website responsive</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-buttons">
+                <a href="mailto:raunakparashar30@gmail.com">📧 Email Me</a>
+                <a href="https://www.linkedin.com/in/raunak-parashar-80a614388" target="_blank">🔗 LinkedIn</a>
+                <a href="https://github.com/RaunakParashar" target="_blank">💻 GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Raunak Parashar | All Rights Reserved
+    </footer>
+
+</body>
+
+</html>
